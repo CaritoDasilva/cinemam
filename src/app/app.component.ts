@@ -14,6 +14,7 @@ export class AppComponent {
 
   @HostListener('window:wheel', ['$event'])
   onWheelScroll(evento: WheelEvent) {
+
     // Scroll down
     if (evento.deltaY > 0) {
       switch (this.router.url) {
