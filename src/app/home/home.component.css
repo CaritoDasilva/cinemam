@@ -1,0 +1,16 @@
+.homePageContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.photoHome {
+    width: 100%;
+}
+
+.textHomePage {
+    height: 100%;
+}
+
+.titleHome {
+    margin: 3%;
+}
