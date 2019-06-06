@@ -4,6 +4,7 @@ import { CampaignsComponent } from './campaigns/campaigns.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FormBuyComponent } from './form-buy/form-buy.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   },
   { path: 'campaigns', component: CampaignsComponent },
   { path: 'contact', component: ContactusComponent },
+  { path: 'form', component: FormBuyComponent },
   { path: '**', component: PageNotFoundComponent }
 
 ];
