@@ -7,13 +7,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { FormBuyComponent } from './form-buy/form-buy.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: CampaignsComponent },
   {
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'
   },
-  { path: 'campaigns', component: CampaignsComponent },
+  { path: 'campanha', component: HomeComponent },
   { path: 'contact', component: ContactusComponent },
   { path: 'form', component: FormBuyComponent },
   { path: '**', component: PageNotFoundComponent }

@@ -1,15 +1,30 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<mat-toolbar>
-  <button mat-button routerLink="/home" routerLinkActive="active">Circuito Salas</button>
-  <button mat-button routerLink="/campaigns" routerLinkActive="active">Campañas</button>
-  <button mat-button routerLink="/contact" routerLinkActive="active">Contactanos!</button>
+<div class="bg-image">
+  <div class="row justify-content-center contentInfoParallax">
+    <div class="col-8">
+      <img class="logoCinemam" src="../assets/imgs/logoSala.png" alt="">
+    </div>
+    <div class="col-4">
+    </div>
+  </div>
+  <div class="row">
+    <div>
+      <p class="textParallax"> No CineMAM
+        a estrutura é de cinema...
+        A vista é de cinema...
+        O pôr do sol é de cinema..
+        Só faltava mesmo o CINEMA</p>
+    </div>
+  </div>
+</div>
 
-</mat-toolbar>
+<div class="animated fadeInDown" id="parallax-content">
+  <nav class="navbar sticky-top fixed-top ">
+    <button mat-button routerLink="/home" routerLinkActive="active">O CineMAM</button>
+    <button class="sticky-top" mat-button routerLink="/campanha" routerLinkActive="active">Apoie este campanha!</button>
+  </nav>
+</div>
 
-<div style="text-align:center">
-  <!-- <h1>
-    Welcome to {{ title }}!
-  </h1> -->
 
-
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

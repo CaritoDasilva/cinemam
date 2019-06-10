@@ -1,7 +1,86 @@
-button {
-    outline: none;
+#parallax-content {
+    position: fixed;
+    top: 0%;
+    width: 100%;
 }
-mat-toolbar {
-    display: flex;
+
+.contentInfoParallax {
+    
+}
+
+
+.logoCinemam {
+    width: 20%;
+    margin-top: 17%;
+    margin-left: 59%;
+
+}
+button {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+button:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+}
+
+button:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+
+@media all and (max-width:30em){
+    button{
+       display:block;
+       margin:0.4em auto;
+        }
+ }
+
+.navbar {
+    background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
+color: white;
+display: flex;
     justify-content: space-around;
+    width: 100%;
+}
+
+.bg-image {
+    background-image: url("../assets/imgs/fondo2.jpeg");
+    min-height: 101vh; 
+    background-attachment: fixed;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+
+}
+
+.sticky {
+    background-image: url('../assets/imgs/fondo2.jpeg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.textParallax {
+    color: white;
+    font-size: 12px;
+    margin-top: 5%;
+    margin-left: 61%
 }

@@ -12,6 +12,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 
 import { HomeComponent } from './home/home.component';
@@ -19,6 +20,7 @@ import { CampaignsComponent } from './campaigns/campaigns.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FormBuyComponent } from './form-buy/form-buy.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -28,7 +30,8 @@ import { FormBuyComponent } from './form-buy/form-buy.component';
     CampaignsComponent,
     ContactusComponent,
     PageNotFoundComponent,
-    FormBuyComponent
+    FormBuyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,7 @@ import { FormBuyComponent } from './form-buy/form-buy.component';
     ReactiveFormsModule,
     AppRoutingModule,
     // ScrollToModule.forRoot(routes),
-
+    MatGridListModule
 
   ],
   providers: [],
