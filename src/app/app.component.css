@@ -4,10 +4,6 @@
     width: 100%;
 }
 
-.contentInfoParallax {
-    
-}
-
 
 .logoCinemam {
     width: 20%;
@@ -27,6 +23,7 @@ button {
     color:#FFFFFF;
     text-align:center;
     transition: all 0.15s;
+    outline: none;
 }
 
 button:hover{
@@ -84,3 +81,4 @@ display: flex;
     margin-top: 5%;
     margin-left: 61%
 }
+

@@ -23,3 +23,69 @@
 li, ul {
     list-style: none;
 }
+
+.contentTexts {
+    font-size: 12px;
+    padding: 5%;
+}
+
+.row {
+margin: 2%;
+}
+
+.slideContents {
+    padding: 5%;
+}
+
+.slides {
+    width: 70%;
+    height: 70%;
+}
+
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+.legendPays {
+    font-size: 8px;
+}
+
+button {
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #000000	;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:400;
+    color:black;
+    text-align:center;
+    transition: all 0.15s;
+    outline: none;
+}
+
+button:hover{
+    color:black;
+    border-color:rgb(155, 146, 146);
+}
+
+button:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+}
+
+@media all and (max-width:30em){
+    button{
+       display:block;
+       margin:0.4em auto;
+        }
+ }
+
+ .buttonApoie {
+     margin-left: 30%;
+ }
+
+
+

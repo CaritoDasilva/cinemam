@@ -4,3 +4,20 @@ form {
 .formField {
     width: 70%;
 }
+
+.formContainer {
+    margin-left: 10%;    
+}
+
+.logoCinemamForm {
+    width: 60%;
+    height: 72%;
+    position: absolute;
+    top: 15%;
+    opacity: 0.2;
+    right: 28%;
+    z-index: -1;
+}
+button {
+    margin-left: 30%;
+}

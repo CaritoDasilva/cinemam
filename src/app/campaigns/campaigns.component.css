@@ -9,11 +9,37 @@
     height: 70%;
 }
 
-.frameOne {
-    width: 50%;
-    height: 50%;
+
+.vtContent {
+    padding: 3%;
 }
 
+video {
+    outline: none;
+}
+
+.contentTexts {
+    font-size: 12px;
+    padding: 5%;
+}
+
+.row {
+margin: 2%;
+}
+
+.slideContents {
+    padding: 5%;
+}
+
+.slides {
+    width: 70%;
+    height: 70%;
+}
+
+
+.carousel-inner {
+    border-radius: 5px;
+}
 
 
 
