@@ -23,6 +23,9 @@ import { FormBuyComponent } from './form-buy/form-buy.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,9 @@ import { HeaderComponent } from './header/header.component';
     ReactiveFormsModule,
     AppRoutingModule,
     // ScrollToModule.forRoot(routes),
-    MatGridListModule
+    MatGridListModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
 
   ],
   providers: [],
